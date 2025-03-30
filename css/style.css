@@ -1,0 +1,21 @@
+header{
+    border-top: 6px solid #df4945;
+    padding: 20px 30px;
+    background-color: #eeeeee;
+    }
+    a{
+    color: black;
+    text-decoration: none;
+    }
+    nav{
+    display: flex;
+    justify-content: space-around;
+    }
+    nav a{
+    font-size: 17px;
+    padding: 10px 30px;
+    }
+    nav a:hover{
+    background-color: #fff;
+    border-top: 2px #df4945 solid;
+    }

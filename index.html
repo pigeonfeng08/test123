@@ -1,44 +1,42 @@
 <!DOCTYPE html>
 <html lang="zh">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>我的家乡，十堰</title>
-  </head>
-  <body>
-    <h1 style="text-align: center;">这是我的家乡——湖北十堰</h1>
-    <p style="text-align: center;">
-    <img src="image/u=3817298696,2330023474&fm=253&fmt=auto&app=138&f=JPEG.webp">
-    </p>
-    <h2>下面请你和我一起来看我的家乡    
-    <a href="https://www.bilibili.com/video/BV1gD4y1Y76H?buvid=XU85B488DA47C185A50607500C3BD85C905E6&from_spmid=search.search-result.0.0&is_story_h5=false&mid=y65Sd7gUA%2BaNh9S%2BLmGf2w%3D%3D&plat_id=116&share_from=ugc&share_medium=android&share_plat=android&share_session_id=88383da6-35ad-43ee-8d72-fb04e0f819f6&share_source=WEIXIN&share_tag=s_i&spmid=united.player-video-detail.0.0&timestamp=1742038626&unique_k=fVTWp44&up_id=1850120860&share_source=weixin">点我跳转---></a>
-    </h2>
-    <div style="text-align: center;">
-      <img src="image/6.jpg" alt="img1" width="450px">
-      <p>夏天傍晚的百二河河道</p>
-      <img src="image/4.jpg" alt="img1" width="50%">
-      <p>汉江岸边的居民小院</p>
-      <img src="image/2.jpg" alt="img1" width="50%">
-      <p>傍晚的人民公园湖面</p>
-      <img src="image/1.jpg" alt="img1" width="50%">
-      <p>春天的十堰</p>
-      <img src="image/3.jpg" alt="img1" width="450px">
-      <p>市区中的独特“风景线”——二汽汽车厂的铁路线</p>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css">
+  <title>我的家乡，十堰</title>
+</head>
+<body>
+  <!-- 导航栏部分 -->
+  <header>
+    <div>
+        <div>
+            <h1 style="text-align: center; font-family: 'Courier New', Courier, monospace; background: linear-gradient(to bottom, pink, #df4945); -webkit-background-clip: text; background-clip: text; color: transparent; font-weight: bold;">这是我的家乡——湖北十堰</h1>
+        </div>
     </div>
-      <p>
-       十堰有很多的特产比如：
-      </p>
+    <nav id="bar2">
+        <a href="index.html">首页</a>
+        <a href="pages/video.html">视频介绍</a>
+        <a href="pages/photo.html">镜头下的十堰</a>
+    </nav>
+  </header>
+<!-- 内容部分 -->
+  <div style="text-align: center;">
+    <img src="image/u=3817298696,2330023474&fm=253&fmt=auto&app=138&f=JPEG.webp">
+  </div> 
+
+  <div style="display: flex; justify-content: center; gap: 30px; margin: 20px auto; width: 80%;">
+    <div style="border: 2px dashed #df4945; border-radius: 10px; padding: 20px;">
+      <p>十堰有很多的特产比如：</p>
       <ol>
         <li>武当道茶</li>
         <li>房县黄酒</li>
         <li>郧阳三合汤</li>
         <li>房县黑木耳</li>
       </ol>
-      <video src="image/introduce1.mp4" controls width="50%"></video>
-      <form action="https://search.douban.com/book/subject_search" >
-        <input type="text" name="search_text" placeholder="输入十堰试试吧！"/>
-        <input type="submit" />
-      </form>
+    </div>
+
+    <div style="border: 2px dashed #df4945; border-radius: 10px; padding: 20px;">
       <table>
         <caption>十堰城市特色速览</caption>
         <tr>
@@ -63,5 +61,12 @@
         </tr>
       </table>
     </div>
-  </body>
+  </div>
+  <div>
+    <form action="https://search.douban.com/book/subject_search">
+      <input type="text" name="search_text" placeholder="输入十堰试试吧！"/>
+      <input type="submit" />
+    </form>
+  </div>
+</body>
 </html>
